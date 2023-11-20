@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+    int a,b,c;
+    scanf("%d%d%d",&a,&b,&c);
+    if(a>>b&a>>c)
+    printf("first num is greater");
+    else if(b>>a&b>>c)
+    printf("second num is greater");
+    else
+    printf("third number is greater");
+}
+
+
+**input**
+5
+50
+35
+
+
+**output**
+second num is greater
+
